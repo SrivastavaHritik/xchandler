@@ -1,0 +1,10 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "typeRoots": ["node_modules/@types", "src"]  // Adjust according to where you placed the .d.ts file
+  }
+}
